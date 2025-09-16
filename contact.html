@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us | CWCA – Chyke Web Craft Agency</title>
-  <meta name="description" content="Get in touch with Chyke Web Craft Agency. Let’s grow your HVAC business with custom web and SEO solutions." />
+  <meta name="description" content="Ready to get more leads? Book a free strategy session with Chyke Web Craft Agency to grow your HVAC business with a custom web and SEO solution." />
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -22,11 +22,10 @@
 </head>
 <body class="bg-white text-navy font-sans">
 
-  <!-- Header -->
   <header class="bg-white shadow-md sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <div class="flex items-center space-x-3">
-        <img src="img/CWCA_Logo_plain_yellow.png" alt="HCAC Logo" class="h-10 w-auto">
+        <img src="img/CWCA_Logo_plain_yellow.png" alt="CWCA Logo" class="h-10 w-auto">
         <span class="text-xl font-bold text-navy">CWCA – Chyke Web Craft Agency</span>
       </div>
       <div class="md:hidden">
@@ -57,40 +56,57 @@
     </div>
   </header>
 
-  <!-- Hero -->
   <section class="text-center py-20 px-6 bg-gold text-white">
-    <h1 class="text-4xl font-bold mb-4">Let’s Connect</h1>
-    <p class="text-lg md:text-xl max-w-2xl mx-auto">Want to boost your HVAC business? Let’s discuss how we can help you grow online with a custom digital strategy.</p>
+    <h1 class="text-4xl font-bold mb-4">Book Your Free Strategy Session</h1>
+    <p class="text-lg md:text-xl max-w-2xl mx-auto">Let’s discuss your business goals and build a plan to get you more calls and leads. This is a free, no-obligation session.</p>
   </section>
 
-  <!-- Contact Form -->
   <section class="py-16 px-4 md:px-6 max-w-3xl mx-auto">
-    <h2 class="text-2xl font-bold text-navy mb-6 text-center">Send Us a Message</h2>
+    <h2 class="text-2xl font-bold text-navy mb-6 text-center">Tell Us About Your Business</h2>
     <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-6">
       <div>
-        <label for="name" class="block text-sm font-medium mb-1">Full Name</label>
+        <label for="name" class="block text-sm font-medium mb-1">Your Full Name</label>
         <input type="text" id="name" name="name" required class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold" />
       </div>
       <div>
-        <label for="email" class="block text-sm font-medium mb-1">Email Address</label>
+        <label for="email" class="block text-sm font-medium mb-1">Business Email</label>
         <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold" />
       </div>
-      <div>
-        <label for="message" class="block text-sm font-medium mb-1">Message</label>
-        <textarea id="message" name="message" rows="5" required class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold"></textarea>
+	  <div>
+        <label for="company" class="block text-sm font-medium mb-1">Company Name</label>
+        <input type="text" id="company" name="company" required class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold" />
       </div>
-      <button type="submit" class="bg-gold text-white font-semibold py-3 px-6 rounded-md hover:bg-yellow-500 shadow">Submit</button>
+	  <div>
+        <label for="phone" class="block text-sm font-medium mb-1">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold" />
+      </div>
+      <div>
+        <label for="services" class="block text-sm font-medium mb-1">What are you most interested in?</label>
+        <select id="services" name="services" class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold">
+			<option value="not-sure">Not sure, just exploring</option>
+			<option value="website-in-a-day">Website in a Day ($150/mo)</option>
+			<option value="website-with-saas">Website with SaaS ($300/mo)</option>
+			<option value="custom-website">Custom Website with SaaS</option>
+			<option value="local-seo">Local SEO Services</option>
+		</select>
+      </div>
+	  <div>
+        <label for="message" class="block text-sm font-medium mb-1">Tell us a little about your business and goals.</label>
+        <textarea id="message" name="message" rows="5" class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold"></textarea>
+      </div>
+      <div class="flex flex-col md:flex-row gap-4 justify-center items-center pt-4">
+        <button type="submit" class="w-full md:w-auto bg-navy text-white font-semibold py-3 px-6 rounded-md hover:bg-gray-800 shadow">Submit & Book a Call</button>
+        <a href="https://calendly.com/chykewebcraft-agency" class="w-full md:w-auto text-center bg-gold text-white font-semibold py-3 px-6 rounded-md hover:bg-yellow-500 shadow">Already submitted? Book here.</a>
+      </div>
     </form>
   </section>
 
-  <!-- Contact Details -->
-  <section class="py-12 px-4 bg-gray-100 text-center text-navy">
-    <h3 class="text-xl font-bold mb-4">Prefer Email?</h3>
-    <p class="text-lg"><a href="mailto:chykewebcraft.agency@gmail.com" class="text-gold hover:underline">chykewebcraft.agency@gmail.com</a></p>
-    <p class="mt-2 text-sm text-gray-600">We typically respond within 1 business day.</p>
+  <section class="py-20 px-4 text-center bg-gold text-white">
+    <h2 class="text-3xl font-bold mb-4">Ready to Get a Website That Works for You?</h2>
+    <p class="text-lg mb-6">Let's turn your online presence into your most reliable lead generation tool.</p>
+    <a href="https://calendly.com/chykewebcraft-agency" class="bg-white text-navy font-semibold py-3 px-6 rounded-lg shadow hover:bg-gray-100">Book a Free Strategy Session</a>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-navy text-white text-sm py-8 text-center">
     <p>&copy; 2025 Chyke Web Craft Agency. All rights reserved.</p>
     <p>Digital craftsmanship for HVAC pros who don’t settle.</p>
@@ -101,19 +117,17 @@
       <a href="about.html" class="text-gold hover:underline">About</a> |
       <a href="portfolio.html" class="text-gold hover:underline">Portfolio</a> |
 	  <a href="pricing.html" class="text-gold hover:underline">Pricing</a> |
-      <a href="contact.html" class="text-gold hover:underline">Contact</a> |
+      <a href="contact.html" class="text-gold hover:underline">Contact</a>
     </p>
   </footer>
 
-  <!-- Mobile Menu Toggle -->
   <script>
     document.getElementById('menuBtn').addEventListener('click', () => {
       document.getElementById('mobileMenu').classList.toggle('hidden');
     });
   </script>
 
-  <!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
+  <script type="text/javascript">
 var _smartsupp = _smartsupp || {};
 _smartsupp.key = '81470b62a8febcdaa2cbb3690200c256be628e05';
 window.smartsupp||(function(d) {
@@ -124,4 +138,4 @@ window.smartsupp||(function(d) {
 })(document);
 </script>
 </body>
-</html>
+			</html>
